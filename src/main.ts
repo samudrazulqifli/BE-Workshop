@@ -38,7 +38,7 @@ async function bootstrap() {
     prefix: '/uploads/',
   });
 
-  const port = process.env.PORT || 3000;
+  const port = process.env.PORT || 6543;
   await app.listen(port);
   console.log(`🚀 Bengkel Online API running on http://localhost:${port}`);
   console.log(`📖 API Base URL: http://localhost:${port}/api/v1`);
